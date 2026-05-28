@@ -91,9 +91,10 @@ This project follows:
 
 ## Contributors
 
-* Ian Arica
-* Adriano
-* Team Members
+- [@Ian-Arica](https://github.com/Ian-Arica)
+- [@rodrigosebastianramirezr-cloud](https://github.com/rodrigosebastianramirezr-cloud)
+- [@Adriano2-02](https://github.com/Adriano2-02)
+- [@moxixd5-sudo](https://github.com/moxixd5-sudo)
 
 ---
 
