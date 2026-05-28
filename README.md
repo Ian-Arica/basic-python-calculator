@@ -1,6 +1,7 @@
 <p align="center">
   <img src="assets/banner.png" alt="Banner">
 </p>
+
 # Basic Python Calculator
 
 A simple calculator developed in Python as a collaborative academic project focused on applying programming fundamentals, version control practices, and teamwork using GitHub.
