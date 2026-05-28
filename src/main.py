@@ -10,10 +10,12 @@ def multiplicar(num1, num2):
     return num1 * num2
 
 def dividir(num1, num2):
+    if num2 == 0:
+        return "Error: No se puede dividir por cero."
     return num1 / num2
 
 def main():
-    print("Bienvenido a la Calculadora Basica en Python")
+    print("=== CALCULADORA PYTHON ===")
     print("Seleccione la operación que desea realizar:")
     print("1. Sumar")
     print("2. Restar")
@@ -27,22 +29,22 @@ def main():
 
     if opcion == '1':
         resultado = sumar(num1, num2)
-        print(f"El resultado de {num1} + {num2} es: {resultado}")
+        print(f"El resultado es: {resultado}")
+
     elif opcion == '2':
         resultado = restar(num1, num2)
-        print(f"El resultado de {num1} - {num2} es: {resultado}")
+        print(f"El resultado es: {resultado}")
+
     elif opcion == '3':
         resultado = multiplicar(num1, num2)
-        print(f"El resultado de {num1} * {num2} es: {resultado}")
+        print(f"El resultado es: {resultado}")
+
     elif opcion == '4':
-        if num2 != 0:
-            resultado = dividir(num1, num2)
-            print(f"El resultado de {num1} / {num2} es: {resultado}")
-        else:
-            print("Error: No se puede dividir por cero.")
+        resultado = dividir(num1, num2)
+        print(f"El resultado es: {resultado}")
+
     else:
-        print("Opción no válida. Por favor, seleccione una opción del 1 al 4.")
+        print("Opción no válida.")
 
 if __name__ == "__main__":
     main()
-
