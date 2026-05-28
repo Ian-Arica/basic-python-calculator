@@ -32,6 +32,8 @@ A simple calculator developed in Python as a collaborative academic project focu
 ```plaintext
 basic-python-calculator/
 │
+├── assets/
+│   └── banner.png
 ├── src/
 │   └── main.py
 ├── requirements.txt
